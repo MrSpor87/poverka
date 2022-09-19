@@ -1,9 +1,46 @@
- <!DOCTYPE html>
- <html>
- <head>
- 	<title>Любимому Папе</title>
- </head>
- <body>
- 	<h1>Спасибо большое!</h1>
- </body>
- </html>
+<!DOCTYPE html>
+<html lang="ru">
+
+   <head>
+      <title>Знакомство с тегами третьеми, формами хуле</title>   
+      <meta http-equiv="Content_type" content="text/html;charset=utf-8" /> 
+   </head>
+
+   <body>
+      <form action="#" method="post" enctype="multipart/form-data">
+         <p>Имя</p>
+         <input placeholder="Имя" type="text" name="Name" value="" />
+         
+         <p>Пароль</p>
+         <input placeholder="Пароль" type="text" name="Password" value="" />
+         
+         <p>Пол</p>
+         <div><input type="radio" name="sex" value="Male">Мужчина</div>
+         <div><input type="radio" name="sex" value="Female">Женщина</div>
+         
+         <p>Имущество</p>
+         <Div><input type="checkbox" name="im1" value="Bike">Велик</div>
+         <div><input type="checkbox" name="im2" value="Car">Машина</div>
+         <div><input type="checkbox" name="im3" value="Flat">Квартира</div>
+         
+         <p>Дополнительная информация</p>
+         <textarea name="Info" cols="30" rows="10"></textarea>
+         
+         <p>Прикрепить фото</p>
+         <p><input type="file" name="foto" /></p>
+         
+         <p>Любимый цвет</p>
+         <select name="color">
+            <option value="Red">Красный</option>
+            <option selected value="Green">ЗЕЛЕНЫЙ</option>
+            <option value="Blue">Голубой</option>
+         </select>
+   
+         <p>Действия</p>
+         <button type="subnit">Отправить</button>
+         <button type="reset">Вернуть</button>  
+      </form>
+   
+   </body>
+
+</html>
